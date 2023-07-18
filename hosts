@@ -1,0 +1,9 @@
+--
+[masters]
+control ansible_host=control
+[workers]
+ilab-prod ansible_host=ilab-prod
+ilab-dev ansible_host=ilab-dev
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
